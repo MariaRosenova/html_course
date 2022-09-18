@@ -4,42 +4,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Maria Shishkova">
-  <meta name="description" content="The official website for the little taco shop">
-  <title>Contact Us</title>
+  <meta name="description" content="Contact information for the little taco shop">
+  <title>Contact Us - LTS</title>
+  <link rel ="icon" href="favicon.ico" type="image/x-icon">
+  <link rel=stylesheet href="css/style.css">
   </head>
+
   <body>
-  <h1>Contact Us</h1>
+    <header>
+     <h1>Contact Us </h1>
   <nav>
-
-       <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="index.html">About LTS</a></li>
-           <li><a href="#">Our Menu</a></li>
-           <li><a href="contact.html">Store Hours</a></li>
-         </ul>
-             </nav>
-         <figure class="image-with-text">
-            <img src="./img/tacos_close_up_400x260.png" alt="image of tacos" title="Tacos ">
-            <p>Little Taco Shop Tacos</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">About<abbr title="The Little Taco Shop">LTS</abbr></a></li>
+      <li><a href="/#menu">Our Menu</a></li>
+      <li><a href="hours.html">Store Hours<a></li>
+        </ul>
+    </nav>
+      <figure>
+        <img src="img/tacos_close_up_400x260.png" alt="Little Taco Shop Tacos" title="Tacos ready to eat!">
+              <figcaption>
+                  Little Taco Shop Tacos
+              </figcaption>
             </figure>
-          <h2>Our Contact Form</h2>
-
-            <fieldset>
-              <legend>Send Us A Message</legend>
-              <p>
-                <label for="name">Name:</label>
-                  <input type="name" name="name">
-                </p>
-              <p>
+          </header>
+          <hr>
+              <main>
+                <section>
+                  <h2>Our Contact Form</h2>
+                    <form action="https://https.org/get" method="get">
+                      <fieldset>
+                         <legend>Send Us A Message</legend>
+                            <p>
+                         <label for="name">Name:</label>
+                         <input type="text" name="name" id="name" placeholder="your name">
+                     </p>
+                    <p>
                 <label for="email">Email:</label>
-                  <input type="email" name="email">
+                <input type="email" name="email" id="email" placeholder="your email">
                 </p>
-              <p>
-                <label for="message">Your Message</label>
-                <br>
-                <textarea name="message" rows="10" cols="30" placeholder="Type your message here"></textarea>
+                  <p>
+                   <label for="message">Your Message:</label>
+                     <br>
+                     <textarea name="message" id="message" rows="10" cols="30" placeholder="Type your message here"></textarea>
                 </p>
-              <input type="submit">
-              <button type="reset" name="reset">Reset</button>
-              </fieldset>
+                </fieldset>
+              <button type="submit">Send</button>
+              <button type="reset">Reset</button>
+            </form>
+          </section>
+            <section>
+              <h2>Our Location</h2>
+                <address>
+                   555 Taco Temptation Lane, Suite<br>
+                   Kansas City, MO 55555-5555 <br>
+                    <br><br>
+                    Phone:<a href="555-555-5555">555-555-5555</a>
+            </address>
+          </section>
+          </main>
+          <hr>
+          <footer>
+              <p>Copyright &copy; The Little Taco Shop</p>
+          </footer>
+</body>
 </html>
